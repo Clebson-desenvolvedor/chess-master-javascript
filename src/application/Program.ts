@@ -1,4 +1,4 @@
+import Board from "../boardgame/Board";
 import Position from "../boardgame/Position";
 
-const position = new Position(1, 2);
-console.log(position.toString());
+const board: Board = new Board(8, 8);
