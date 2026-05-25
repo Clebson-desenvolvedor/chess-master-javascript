@@ -1,0 +1,20 @@
+{
+  "name": "chess-master",
+  "version": "1.0.0",
+  "description": "A chess game project",
+  "main": "dist/application/Program.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/application/Program.js",
+    "dev": "tsc --watch"
+  },
+  "keywords": [
+    "chess"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/node": "^25.9.1",
+    "typescript": "^5.0.0"
+  }
+}
